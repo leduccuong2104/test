@@ -1,0 +1,9 @@
+export const signIn$ = (state) => state.signIn.data;
+export const signUp$ = (state) => state.signUp.data;
+export const createGoods$ = (state) => state.goods.data;
+export const getDataGoods$ = (state) => state.goods.data;
+export const editDataGoods$ = (state) => state.goods.data;
+export const addState$ = (state) => state.add;
+export const saveData$ = (state) => state.saveData.data;
+export const createClients$ = (state) => state.clients.data;
+export const getDataClients$ = (state) => state.clients.data;
